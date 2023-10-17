@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0435DA52ADEB9AB00AB00E8 /* memento_moriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0435DA42ADEB9AB00AB00E8 /* memento_moriApp.swift */; };
+		A0435DA72ADEB9AB00AB00E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0435DA62ADEB9AB00AB00E8 /* ContentView.swift */; };
+		A0435DA92ADEB9AC00AB00E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0435DA82ADEB9AC00AB00E8 /* Assets.xcassets */; };
+		A0435DAD2ADEB9AC00AB00E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0435DAC2ADEB9AC00AB00E8 /* Preview Assets.xcassets */; };
+		A0435DB72ADEB9AC00AB00E8 /* memento_moriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0435DB62ADEB9AC00AB00E8 /* memento_moriTests.swift */; };
+		A0435DC12ADEB9AC00AB00E8 /* memento_moriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0435DC02ADEB9AC00AB00E8 /* memento_moriUITests.swift */; };
+		A0435DC32ADEB9AC00AB00E8 /* memento_moriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0435DC22ADEB9AC00AB00E8 /* memento_moriUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0435DB32ADEB9AC00AB00E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0435D992ADEB9AB00AB00E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0435DA02ADEB9AB00AB00E8;
+			remoteInfo = "memento-mori";
+		};
+		A0435DBD2ADEB9AC00AB00E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0435D992ADEB9AB00AB00E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0435DA02ADEB9AB00AB00E8;
+			remoteInfo = "memento-mori";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0435DA12ADEB9AB00AB00E8 /* memento-mori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "memento-mori.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0435DA42ADEB9AB00AB00E8 /* memento_moriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memento_moriApp.swift; sourceTree = "<group>"; };
+		A0435DA62ADEB9AB00AB00E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0435DA82ADEB9AC00AB00E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0435DAA2ADEB9AC00AB00E8 /* memento_mori.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = memento_mori.entitlements; sourceTree = "<group>"; };
+		A0435DAC2ADEB9AC00AB00E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0435DB22ADEB9AC00AB00E8 /* memento-moriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "memento-moriTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0435DB62ADEB9AC00AB00E8 /* memento_moriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memento_moriTests.swift; sourceTree = "<group>"; };
+		A0435DBC2ADEB9AC00AB00E8 /* memento-moriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "memento-moriUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0435DC02ADEB9AC00AB00E8 /* memento_moriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memento_moriUITests.swift; sourceTree = "<group>"; };
+		A0435DC22ADEB9AC00AB00E8 /* memento_moriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memento_moriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0435D9E2ADEB9AB00AB00E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0435DAF2ADEB9AC00AB00E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0435DB92ADEB9AC00AB00E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0435D982ADEB9AB00AB00E8 = {
+			isa = PBXGroup;
+			children = (
+				A0435DA32ADEB9AB00AB00E8 /* memento-mori */,
+				A0435DB52ADEB9AC00AB00E8 /* memento-moriTests */,
+				A0435DBF2ADEB9AC00AB00E8 /* memento-moriUITests */,
+				A0435DA22ADEB9AB00AB00E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0435DA22ADEB9AB00AB00E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0435DA12ADEB9AB00AB00E8 /* memento-mori.app */,
+				A0435DB22ADEB9AC00AB00E8 /* memento-moriTests.xctest */,
+				A0435DBC2ADEB9AC00AB00E8 /* memento-moriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0435DA32ADEB9AB00AB00E8 /* memento-mori */ = {
+			isa = PBXGroup;
+			children = (
+				A0435DA42ADEB9AB00AB00E8 /* memento_moriApp.swift */,
+				A0435DA62ADEB9AB00AB00E8 /* ContentView.swift */,
+				A0435DA82ADEB9AC00AB00E8 /* Assets.xcassets */,
+				A0435DAA2ADEB9AC00AB00E8 /* memento_mori.entitlements */,
+				A0435DAB2ADEB9AC00AB00E8 /* Preview Content */,
+			);
+			path = "memento-mori";
+			sourceTree = "<group>";
+		};
+		A0435DAB2ADEB9AC00AB00E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A0435DAC2ADEB9AC00AB00E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0435DB52ADEB9AC00AB00E8 /* memento-moriTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0435DB62ADEB9AC00AB00E8 /* memento_moriTests.swift */,
+			);
+			path = "memento-moriTests";
+			sourceTree = "<group>";
+		};
+		A0435DBF2ADEB9AC00AB00E8 /* memento-moriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0435DC02ADEB9AC00AB00E8 /* memento_moriUITests.swift */,
+				A0435DC22ADEB9AC00AB00E8 /* memento_moriUITestsLaunchTests.swift */,
+			);
+			path = "memento-moriUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0435DA02ADEB9AB00AB00E8 /* memento-mori */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0435DC62ADEB9AC00AB00E8 /* Build configuration list for PBXNativeTarget "memento-mori" */;
+			buildPhases = (
+				A0435D9D2ADEB9AB00AB00E8 /* Sources */,
+				A0435D9E2ADEB9AB00AB00E8 /* Frameworks */,
+				A0435D9F2ADEB9AB00AB00E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "memento-mori";
+			productName = "memento-mori";
+			productReference = A0435DA12ADEB9AB00AB00E8 /* memento-mori.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0435DB12ADEB9AC00AB00E8 /* memento-moriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0435DC92ADEB9AC00AB00E8 /* Build configuration list for PBXNativeTarget "memento-moriTests" */;
+			buildPhases = (
+				A0435DAE2ADEB9AC00AB00E8 /* Sources */,
+				A0435DAF2ADEB9AC00AB00E8 /* Frameworks */,
+				A0435DB02ADEB9AC00AB00E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0435DB42ADEB9AC00AB00E8 /* PBXTargetDependency */,
+			);
+			name = "memento-moriTests";
+			productName = "memento-moriTests";
+			productReference = A0435DB22ADEB9AC00AB00E8 /* memento-moriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0435DBB2ADEB9AC00AB00E8 /* memento-moriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0435DCC2ADEB9AC00AB00E8 /* Build configuration list for PBXNativeTarget "memento-moriUITests" */;
+			buildPhases = (
+				A0435DB82ADEB9AC00AB00E8 /* Sources */,
+				A0435DB92ADEB9AC00AB00E8 /* Frameworks */,
+				A0435DBA2ADEB9AC00AB00E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0435DBE2ADEB9AC00AB00E8 /* PBXTargetDependency */,
+			);
+			name = "memento-moriUITests";
+			productName = "memento-moriUITests";
+			productReference = A0435DBC2ADEB9AC00AB00E8 /* memento-moriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0435D992ADEB9AB00AB00E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A0435DA02ADEB9AB00AB00E8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A0435DB12ADEB9AC00AB00E8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A0435DA02ADEB9AB00AB00E8;
+					};
+					A0435DBB2ADEB9AC00AB00E8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A0435DA02ADEB9AB00AB00E8;
+					};
+				};
+			};
+			buildConfigurationList = A0435D9C2ADEB9AB00AB00E8 /* Build configuration list for PBXProject "memento-mori" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0435D982ADEB9AB00AB00E8;
+			productRefGroup = A0435DA22ADEB9AB00AB00E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0435DA02ADEB9AB00AB00E8 /* memento-mori */,
+				A0435DB12ADEB9AC00AB00E8 /* memento-moriTests */,
+				A0435DBB2ADEB9AC00AB00E8 /* memento-moriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0435D9F2ADEB9AB00AB00E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0435DAD2ADEB9AC00AB00E8 /* Preview Assets.xcassets in Resources */,
+				A0435DA92ADEB9AC00AB00E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0435DB02ADEB9AC00AB00E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0435DBA2ADEB9AC00AB00E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0435D9D2ADEB9AB00AB00E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0435DA72ADEB9AB00AB00E8 /* ContentView.swift in Sources */,
+				A0435DA52ADEB9AB00AB00E8 /* memento_moriApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0435DAE2ADEB9AC00AB00E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0435DB72ADEB9AC00AB00E8 /* memento_moriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0435DB82ADEB9AC00AB00E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0435DC12ADEB9AC00AB00E8 /* memento_moriUITests.swift in Sources */,
+				A0435DC32ADEB9AC00AB00E8 /* memento_moriUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0435DB42ADEB9AC00AB00E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0435DA02ADEB9AB00AB00E8 /* memento-mori */;
+			targetProxy = A0435DB32ADEB9AC00AB00E8 /* PBXContainerItemProxy */;
+		};
+		A0435DBE2ADEB9AC00AB00E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0435DA02ADEB9AB00AB00E8 /* memento-mori */;
+			targetProxy = A0435DBD2ADEB9AC00AB00E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0435DC42ADEB9AC00AB00E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0435DC52ADEB9AC00AB00E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A0435DC72ADEB9AC00AB00E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "memento-mori/memento_mori.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"memento-mori/Preview Content\"";
+				DEVELOPMENT_TEAM = 6PJJC3549Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibz.memento-mori";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0435DC82ADEB9AC00AB00E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "memento-mori/memento_mori.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"memento-mori/Preview Content\"";
+				DEVELOPMENT_TEAM = 6PJJC3549Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibz.memento-mori";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0435DCA2ADEB9AC00AB00E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PJJC3549Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibz.memento-moriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memento-mori.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/memento-mori";
+			};
+			name = Debug;
+		};
+		A0435DCB2ADEB9AC00AB00E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PJJC3549Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibz.memento-moriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memento-mori.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/memento-mori";
+			};
+			name = Release;
+		};
+		A0435DCD2ADEB9AC00AB00E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PJJC3549Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibz.memento-moriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "memento-mori";
+			};
+			name = Debug;
+		};
+		A0435DCE2ADEB9AC00AB00E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PJJC3549Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibz.memento-moriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "memento-mori";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0435D9C2ADEB9AB00AB00E8 /* Build configuration list for PBXProject "memento-mori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0435DC42ADEB9AC00AB00E8 /* Debug */,
+				A0435DC52ADEB9AC00AB00E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0435DC62ADEB9AC00AB00E8 /* Build configuration list for PBXNativeTarget "memento-mori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0435DC72ADEB9AC00AB00E8 /* Debug */,
+				A0435DC82ADEB9AC00AB00E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0435DC92ADEB9AC00AB00E8 /* Build configuration list for PBXNativeTarget "memento-moriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0435DCA2ADEB9AC00AB00E8 /* Debug */,
+				A0435DCB2ADEB9AC00AB00E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0435DCC2ADEB9AC00AB00E8 /* Build configuration list for PBXNativeTarget "memento-moriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0435DCD2ADEB9AC00AB00E8 /* Debug */,
+				A0435DCE2ADEB9AC00AB00E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0435D992ADEB9AB00AB00E8 /* Project object */;
+}
